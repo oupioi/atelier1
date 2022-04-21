@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+*{
+	font-family: 'Roboto Mono', monospace;
+	color :black
+}
+
+body{
+	background: rgb(255, 255, 255);
+
+}
+#titre{
+background-color: #2e70ad;
+color: #ffffff;
+font-size: 135%;
+}
+#tableau{
+	margin-top: 1%;
+	}
+/*boutton utilisateur*/
+#button {
+
+display: inline-block;
+padding: 2px 6px;
+font-size: 24px;
+cursor: pointer;
+text-align: center;	
+text-decoration: none;
+outline: none;
+color: rgb(255, 255, 255);
+background-color: #0cd337b2;
+border: none;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+  }
+  
+#button:hover {background-color: #0cd337b2}
+  
+#button:active {
+background-color: #9715b8;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+  }
+#divb{
+margin-top: 1%;
+}
+/*header*/
+#inter{
+	text-align: center;
+}
+#frm{
+	border: solid gray 1px;
+	width: 20%;
+	border-radius: 5px;
+	margin: 100px auto;
+	background: white;
+	padding: 50px;
+
+}
+#frmadd{
+
+	border: solid gray 1px;
+	width: 50%;
+	border-radius: 5px;
+	margin: 100px auto;
+	background: white;
+	padding: 50px;
+
+}
+#btn{
+	color: rgb(3, 3, 3);
+	background: #ffffff;
+	padding: 5px;
+	margin-left: 69%;
+
+}
+#ulh {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(1, 45, 66);
+}
+
+#lih {
+    float: left;
+}
+
+#lih #ah {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#lih #ah:hover {
+    background-color: rgb(63, 27, 27);
+}
+/*footer*/
+#divf {
+    display: flex;
+    height: 35%;
+    width: 100%;
+    background-color: #002a38;
+  
+  }
+  
+  
